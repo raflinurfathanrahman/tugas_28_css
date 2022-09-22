@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas CSS - Niomic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</head>
+    <style>
+        body {
+            background-color: #333333;
+        }
+        form {
+            color: white;
+        }
+    </style>
+<body>
+    <div class="container-fluid py-5">
+        <div class="container">
+            <img src="lampung.jpg" class="rounded-circle mx-auto d-block mb-4" width="200px" height="100px">
+
+            <div class="offset-lg-3 col-lg-6">
+            <form>
+                <div class="mb-3">
+                    <label for="nama" class="form-label">Nama Lengkap</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="alamat" class="form-label">Alamat</label>
+                    <textarea id="alamat" cols="30" rows="3" class="form-control"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="password" class="form-label">password</label>
+                    <input type="password" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="file" class="form-label">Scan KTP</label>
+                    <input type="file" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <input type="checkbox" id="flexcheckdefault">
+                    <label for="flexcheckdefault">Saya <u>setuju</u> dan telah membaca <span style="color: blue;">aturan</span> serta <span style="color: blue;">ketentuan yang berlaku</span></label>
+                </div>
+
+                <div class="d-grid gap-2 mb-3">
+                <button class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
